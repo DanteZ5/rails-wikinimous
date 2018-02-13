@@ -13,8 +13,8 @@
   <body>
 
     <div class="my-navbar">
-      <%= link_to('Wikinimous', articles_path) %>
-      <%= link_to('New article', new_article_path) %>
+      <%= link_to('Wikinimous', articles_path, class: 'btn btn-primary') %>
+      <%= link_to('New article', new_article_path, class: 'btn btn-primary') %>
     </div>
 
     <%= yield %>
